@@ -1,0 +1,93 @@
+# =========================
+# OS & Editor files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Build results
+# =========================
+bin/
+obj/
+out/
+
+# =========================
+# .NET Core
+# =========================
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# =========================
+# ASP.NET Core
+# =========================
+appsettings.Development.json
+appsettings.Local.json
+
+# User secrets
+secrets.json
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Rider
+# =========================
+.idea/
+*.sln.iml
+
+# =========================
+# EF Core
+# =========================
+Migrations/*.cs
+!Migrations/*Initial*.cs
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Publish output
+# =========================
+publish/
+wwwroot/lib/
+
+# =========================
+# Test results
+# =========================
+TestResults/
+
+# =========================
+# Package lock files
+# =========================
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# =========================
+# Azure / Deployment
+# =========================
+.azure/
+.azure-pipelines/
